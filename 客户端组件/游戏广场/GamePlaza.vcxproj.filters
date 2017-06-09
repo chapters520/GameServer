@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountsControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatHistory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CollocateRoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\Custsite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCollocate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCustomFace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDismissGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDownLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEnquire.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgIssueMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgKickUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLockMachine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgManageUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGMBCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProxyConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRegister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSearchTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSearchUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgServerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgServiceIndividual.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgServiceItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgServicePassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSkinControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTablePassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWhisper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlaza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalUnits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\IDispimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionLogon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformPublicize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlazaViewItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerListData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerListView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerViewItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableViewFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndUserInfoCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndValidateCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndViewItemCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountsControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatHistory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CollocateRoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\Custsite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCollocate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCustomFace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDismissGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDownLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEnquire.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgIssueMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgKickUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLockMachine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgManageUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGMBCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxyConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRegister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSearchTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSearchUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgServerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgServiceIndividual.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgServiceItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgServicePassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSkinControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTablePassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWhisper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlaza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlazaHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalUnits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\IDispimp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionLogon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformPublicize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlazaViewItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerListData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerListView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerViewItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableViewFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndUserInfoCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndValidateCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndViewItemCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\Plaza_enquire\BK_ENQUIRE_BUTTON.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BK_GAME_LIST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\BK_LIST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BK_NAVIGATION.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BK_PLATFORM_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BK_PLATFORM_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BK_PLATFORM_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BK_USER_INFO.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BK_USER_INFO_SET.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_frame\BK_USER_LIST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BROWSER_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_BROWSER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_BUTTON_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_CHAT_SHORT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\Bt_close.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_COMBOBOX.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Down_load\BT_DOWN_LOAD_LAST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Down_load\BT_DOWN_LOAD_NEXT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\BT_ENQUIRE_CANCEL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\BT_ENQUIRE_CANCEL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\BT_ENQUIRE_PLAZA.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\BT_ENQUIRE_SERVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\BT_ENQUIRE_SWITCH.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_GAME_LIST_HIDE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_GAME_LIST_SHOW.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_HOME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\BT_JOIN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\Bt_last.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\BT_LEAVE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\BT_LOCK_LIST.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_LINK_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_QUIT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_LOGON_REGISTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_MAX.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_MIN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\Bt_navigation_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_NAVIGATION_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_NEXT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BT_PLATFORM_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BT_PLATFORM_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\BT_PLATFORM_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_QUIT_SERVER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_QUIT_SERVER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER_ENTER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\BT_REGISTER_QUIT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_RELOAD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_RESORE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\BT_SEND_CHAT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_SERVER_MANAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\BT_SKIN.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\BT_STATUS_CANCEL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_browser\BT_STOP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\BT_TABLE_BUTTON_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\BT_UNLOCK_LIST.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BT_USER_INFO_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BT_USER_INFO_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BT_USER_INFO_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BT_USER_INFO_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\BT_USER_INFO_SET.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_frame\BT_USER_LIST_HIDE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_frame\BT_USER_LIST_SHOW.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_BUTTON_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_HISTORY.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_HISTORY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_SEND_CONTROL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\BT_WHISPER_USER_MENU.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CANCEL_DETEST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CANCEL_FRIEND.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_chat\CHAT_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\CHAT_WHISPER_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_collocate\Collocate_bar_bt.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_collocate\COLLOCATE_BAR_LOGO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CONNECT_STATUS.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_enquire\DLG_ENQUIRE_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Dlg_logon_back.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\DLG_REGISTER_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Down_load\DOWN_LOAD_ITEM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Down_load\DOWN_LOAD_SCALE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\DownLoad.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\FRAME_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_property\GAME_PROPERTY_ITEM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_property\GAME_PROPERTY_L.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_property\GAME_PROPERTY_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_property\GAME_PROPERTY_R.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\GamePlaza.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\HISTORY_WHISPER_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\IMAGE_REGISTER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_SEARCH.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\INPUT_WHISPER_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_BUTTON.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Item_frame\ITEM_FRAME_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\LIST_TITLE_L.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\LIST_TITLE_M.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\LIST_TITLE_R.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\LOAD_STATUS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\Logon_titile.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\MESSAGE_SETTING.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\NULL.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\NUMBER_GREEN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\NUMBER_ORANGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\PASSWORD_LEVEL.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Platform_frame\Platform_logo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_logon\REGISTER_TITLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\REMOTE_USER_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\REVECE_WHISPER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SEARCH_LOGO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_ARROW.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SERVER_LIST_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_list\SERVER_LIST_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_collocate\SERVICE_BAR_BT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_collocate\SERVICE_BAR_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_collocate\SERVICE_BAR_LOGO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SERVICE_LIST_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\SET_DETEST.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\SET_FRIEND.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\SHIELD_WHISPER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SKIN_BUTTON.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SKIN_COLOR.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\SKIN_ITEM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_status\STATUS_POINT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_GROUND.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\Table_locker.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_NUMBER_BK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\Table_number_nb.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\TABLE_PASSWORD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\Table_ready.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\TABLE_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\TABLE_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_table\TABLE_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_match\TABLE_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\Under_write_l.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\Under_write_m.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\Under_write_r.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\USER_INFO_L.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\USER_INFO_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\User_info\USER_INFO_R.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_BL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_BM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_BR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_ML.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_MR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_TL.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_TM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Server_user\USER_LIST_TR.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\WHISPER.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_CONTRUL_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_CONTRUL_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_CONTRUL_T.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_USER_INFO_B.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_USER_INFO_M.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Plaza_whisper\WHISPER_USER_INFO_T.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GamePlaza.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GamePlaza.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Res\Server_chat\BUGLE.wav" />
+    <Media Include="Res\Server_chat\BUGLE_EX.wav" />
+  </ItemGroup>
+</Project>

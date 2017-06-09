@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgBrowser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgInsureCounter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissionManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEditMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemTrayIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInformation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserItemElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserListControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WebMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WebPublicize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndChatControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgBrowser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgInsureCounter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MissionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RichEditMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareControlHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemTrayIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInformation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserItemElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserListControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WebBrowser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WebMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WebPublicize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndChatControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\BT_CHAT_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_CHAT_HISTORY.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_INSURE_SCORE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\BT_INSURE_SCORE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_KEYBOARD.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_KEYBOARD_CLOSE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\BT_QUERY_INFO.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SAVE_SCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\BT_SAVE_SCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_TAKE_SCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\BT_TAKE_SCORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\Bt_transfer_score.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\CHAT_CONTROL_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_AFFICHE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_PROMPT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_SYSTEM.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\INFO_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\Insure_icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\INSURE_INFO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\INSURE_INFO_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\KEYBOARD_ITEM1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\KEYBOARD_ITEM2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\KEYBOARD_ITEM3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\PASSWORD_KEYBORAD_BK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\PHRASE_FLAG_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Score_number.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Dlg_insure\Score_number.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_EXPERIENCE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_EXPERIENCE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_STATUS_IMAGE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_load_line_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\Web_load_line_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ShareControl.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShareControl.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

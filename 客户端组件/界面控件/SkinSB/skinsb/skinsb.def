@@ -1,0 +1,17 @@
+; SkinSB.def : 
+
+LIBRARY      "SkinSB"
+
+EXPORTS
+
+SkinSB_Init
+SkinSB_Uninit
+SkinSB_IsValid
+SkinSB_GetScrollInfo
+SkinSB_SetScrollInfo
+SkinSB_GetScrollPos
+SkinSB_SetScrollPos
+SkinSB_GetScrollRange
+SkinSB_SetScrollRange
+SkinSB_ShowScrollBar
+SkinSB_EnableScrollBar

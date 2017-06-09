@@ -1,0 +1,163 @@
+说明
+===================================
+    您可以使用此滚动条库并且可以跟据需要修改源代码，但请不要随意发布此源代码。请尊重者作原创!
+此皮肤滚动条库可以在Windows标准控件或非标准控件上使用，如果您对此皮肤滚动条有何建议请随及联系作者.
+
+作者 : 李俊
+
+E-Mail : notoldtree@126.com  QQ : 154828
+
+
+使用说明
+====================================
+此库是由C语言编写，以静态链接库发布，若要在其它语言中使用此库只需要将发布方式改为动态链接库即可。
+
+
+
+使用步骤
+====================================
+1.首先将下列文件加入工程:
+detours.h
+detours.lib
+
+skinsb.h
+skinsb.lib
+
+
+2.设置API HOOK
+
+2.1.宣布需要HOOK到的API:
+DETOUR_TRAMPOLINE(int   WINAPI SetScrollInfoT(HWND, int, LPCSCROLLINFO, BOOL), SetScrollInfo)
+DETOUR_TRAMPOLINE(BOOL  WINAPI GetScrollInfoT(HWND, int, LPSCROLLINFO), GetScrollInfo)
+DETOUR_TRAMPOLINE(int   WINAPI SetScrollPosT(HWND, int, int, BOOL), SetScrollPos)
+DETOUR_TRAMPOLINE(int   WINAPI GetScrollPosT(HWND, int), GetScrollPos)
+DETOUR_TRAMPOLINE(BOOL  WINAPI GetScrollRangeT(HWND, int, LPINT, LPINT), GetScrollRange)
+DETOUR_TRAMPOLINE(BOOL  WINAPI SetScrollRangeT(HWND, int, int, int, BOOL), SetScrollRange)
+DETOUR_TRAMPOLINE(BOOL  WINAPI ShowScrollBarT(HWND, int, BOOL), ShowScrollBar)
+DETOUR_TRAMPOLINE(BOOL  WINAPI EnableScrollBarT(HWND, UINT, UINT), EnableScrollBar)
+
+
+2.2.写下列全局函数，将HOOK到的函数的参数传递到skinsb函数中
+int WINAPI SetScrollInfoD(HWND hwnd, int fnBar, LPCSCROLLINFO lpsi, BOOL bRedraw)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_SetScrollInfo(hwnd, fnBar, lpsi, bRedraw);
+	else
+		return SetScrollInfoT(hwnd, fnBar, lpsi, bRedraw);
+}
+
+BOOL WINAPI GetScrollInfoD(HWND hwnd, int fnBar, LPSCROLLINFO lpsi)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_GetScrollInfo(hwnd, fnBar, lpsi);
+	else
+		return GetScrollInfoT(hwnd, fnBar, lpsi);
+}
+
+int WINAPI SetScrollPosD(HWND hwnd, int nBar, int nPos, BOOL bRedraw)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_SetScrollPos(hwnd, nBar, nPos, bRedraw);
+	else
+		return SetScrollPosT(hwnd, nBar, nPos, bRedraw);
+}
+
+int WINAPI GetScrollPosD(HWND hwnd, int nBar)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_GetScrollPos(hwnd, nBar);
+	else
+		return GetScrollPosT(hwnd, nBar);
+}
+
+BOOL WINAPI SetScrollRangeD(HWND hwnd, int nBar, int nMinPos, int nMaxPos, BOOL bRedraw)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_SetScrollRange(hwnd, nBar, nMinPos, nMaxPos, bRedraw);
+	else
+		return SetScrollRangeT(hwnd, nBar, nMinPos, nMaxPos, bRedraw);
+}
+
+BOOL WINAPI GetScrollRangeD(HWND hwnd, int nBar, LPINT lpMinPos, LPINT lpMaxPos)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_GetScrollRange(hwnd, nBar, lpMinPos, lpMaxPos);
+	else
+		return GetScrollRangeT(hwnd, nBar, lpMinPos, lpMaxPos);
+}
+
+BOOL WINAPI ShowScrollBarD(HWND hwnd, int nBar, BOOL bShow)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_ShowScrollBar(hwnd, nBar, bShow);
+	else
+		return ShowScrollBarT(hwnd, nBar, bShow);
+}
+
+BOOL WINAPI EnableScrollBarD(HWND hwnd, UINT wSBflags, UINT wArrows)
+{
+	if( SkinSB_IsValid(hwnd) )
+		return SkinSB_EnableScrollBar(hwnd, wSBflags, wArrows);
+	else
+		return EnableScrollBarT(hwnd, wSBflags, wArrows);
+}
+
+2.3.加载API HOOK的代码，最好写在CXXXApp::InitInstance()函数中
+DetourFunctionWithTrampoline((PBYTE)SetScrollInfoT, (PBYTE)SetScrollInfoD);
+DetourFunctionWithTrampoline((PBYTE)GetScrollInfoT, (PBYTE)GetScrollInfoD);
+DetourFunctionWithTrampoline((PBYTE)SetScrollPosT, (PBYTE)SetScrollPosD);
+DetourFunctionWithTrampoline((PBYTE)GetScrollPosT, (PBYTE)GetScrollPosD);
+DetourFunctionWithTrampoline((PBYTE)SetScrollRangeT, (PBYTE)SetScrollRangeD);
+DetourFunctionWithTrampoline((PBYTE)GetScrollRangeT, (PBYTE)GetScrollRangeD);
+DetourFunctionWithTrampoline((PBYTE)ShowScrollBarT, (PBYTE)ShowScrollBarD);
+DetourFunctionWithTrampoline((PBYTE)EnableScrollBarT, (PBYTE)EnableScrollBarD);
+
+
+
+2.4.卸载API HOOK，最好写在CXXXApp::ExitInstance()函数中
+DetourRemove((PBYTE)SetScrollInfoT, (PBYTE)SetScrollInfoD);
+DetourRemove((PBYTE)SetScrollPosT, (PBYTE)SetScrollPosD);
+DetourRemove((PBYTE)GetScrollInfoT, (PBYTE)GetScrollInfoD);
+DetourRemove((PBYTE)GetScrollPosT, (PBYTE)GetScrollPosD);
+DetourRemove((PBYTE)SetScrollRangeT, (PBYTE)SetScrollRangeD);
+DetourRemove((PBYTE)GetScrollRangeT, (PBYTE)GetScrollRangeD);
+DetourRemove((PBYTE)ShowScrollBarT, (PBYTE)ShowScrollBarD);
+DetourRemove((PBYTE)EnableScrollBarT, (PBYTE)EnableScrollBarD);
+
+
+3.skinsb库函数使用说明:
+====================================
+
+
+// 初始化窗口滚动条并加载皮肤，这个句柄可以是任何一个带滚动条的窗口，但这个窗口不是滚动条控件本身.
+BOOL WINAPI SkinSB_Init(
+              HWND hwnd,     // 指定一个需要加载皮肤滚动条的窗口句柄
+              HBITMAP hBmp   // 指定一个位图句柄,这是滚动条皮肤位图
+)
+
+
+// 移除窗口的滚动条皮肤,还原系统样式的滚动条
+BOOL WINAPI SkinSB_Uninit(
+              HWND hwnd      // 指定一个需要移除滚动条皮肤的窗口句柄
+)
+
+
+// 检查窗口是否加载了皮肤滚动条
+BOOL WINAPI SkinSB_IsValid(
+              HWND hwnd      // 指定一个窗口句柄
+)
+
+// 下列函数等价于Windows API函数,如果你不需要自已去计算滚动条,可以不用这些函数.
+BOOL WINAPI SkinSB_GetScrollInfo(HWND hwnd, int fnBar, LPSCROLLINFO lpsi);
+int  WINAPI SkinSB_SetScrollInfo(HWND hwnd, int fnBar, LPCSCROLLINFO psi, BOOL fRedraw);
+int  WINAPI SkinSB_GetScrollPos(HWND hwnd, int fnBar);
+int  WINAPI SkinSB_SetScrollPos(HWND hwnd, int nBar, int nPos, BOOL fRedraw);
+BOOL WINAPI SkinSB_GetScrollRange(HWND hwnd, int nBar, LPINT lpMinPos, LPINT lpMaxPos);
+BOOL WINAPI SkinSB_SetScrollRange(HWND hwnd, int nBar, int nMinPos, int nMaxPos, BOOL fRedraw);
+BOOL WINAPI SkinSB_ShowScrollBar(HWND hwnd, int wBar, BOOL fShow);
+BOOL WINAPI SkinSB_EnableScrollBar(HWND hwnd, UINT wSBflags, UINT wArrows);
+
+
+备注:
+1.如果你想自已去计算滚动条,可以省略第2个步骤(设置API HOOK),否则就必须使用API HOOK
+2.滚动条位图中的排例必须是和scroll.bmp是一致的，否则绘制出来的效果可能会错位

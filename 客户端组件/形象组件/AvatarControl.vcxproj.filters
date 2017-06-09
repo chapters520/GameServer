@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;png;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AvatarControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFaceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceCustomControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceItemControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceItemView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSelectControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageEditorControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AvatarControlHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFaceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceCustomControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceItemControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceItemView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceSelectControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageEditorControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AvatarControl.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AvatarControl.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\HAND_CUR.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\BT_FACE_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_FROM_FILE.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_LOAD_CAMER.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_SHOW_VLINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_TURN_LEFT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\BT_TURN_RIGHT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FACE_EDIT_BACK.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FACE_EDIT_GRAY.PNG">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\FACE_ITEM_FRAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\IMAGE_CAMERA.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_FACE_48.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Res\USER_FACE_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

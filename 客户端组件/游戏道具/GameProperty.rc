@@ -1,0 +1,274 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameProperty.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 9,0,1,1
+ PRODUCTVERSION 9,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "服务核心"
+            VALUE "FileVersion", "9, 0, 1, 1"
+            VALUE "InternalName", "GameProperty.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "GameProperty.dll"
+            VALUE "ProductName", "服务核心"
+            VALUE "ProductVersion", "9, 0, 1, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+HOVER_FRAME             PNG                     "res\\HOVER_FRAME.PNG"
+PROPERTY_FRAME          PNG                     "res\\PROPERTY_FRAME.PNG"
+IMAGE_CAR               PNG                     "res\\IMAGE_CAR.PNG"
+IMAGE_EGG               PNG                     "res\\IMAGE_EGG.PNG"
+IMAGE_CLAP              PNG                     "res\\IMAGE_CLAP.PNG"
+IMAGE_KISS              PNG                     "res\\IMAGE_KISS.PNG"
+IMAGE_BEER              PNG                     "res\\IMAGE_BEER.PNG"
+IMAGE_CAKE              PNG                     "res\\IMAGE_CAKE.PNG"
+IMAGE_RING              PNG                     "res\\IMAGE_RING.PNG"
+IMAGE_BEAT              PNG                     "res\\IMAGE_BEAT.PNG"
+IMAGE_BOMB              PNG                     "res\\IMAGE_BOMB.PNG"
+IMAGE_SMOKE             PNG                     "res\\IMAGE_SMOKE.PNG"
+IMAGE_VILLA             PNG                     "res\\IMAGE_VILLA.PNG"
+IMAGE_BRICK             PNG                     "res\\IMAGE_BRICK.PNG"
+IMAGE_FLOWER            PNG                     "Res\\IMAGE_FLOWER.PNG"
+IMAGE_TWO_SCORE_CARD    PNG                     "res\\IMAGE_TWO_SCORE_CARD.PNG"
+IMAGE_FOUR_SCORE_CARD   PNG                     "res\\IMAGE_FOUR_SCORE_CARD.PNG"
+IMAGE_SCORE_CLEAR       PNG                     "res\\IMAGE_SCORE_CLEAR.PNG"
+IMAGE_ESCAPE_CLEAR      PNG                     "res\\IMAGE_ESCAPE_CLEAR.PNG"
+IMAGE_TRUMPET           PNG                     "res\\IMAGE_TRUMPET.PNG"
+IMAGE_TYPHON            PNG                     "res\\IMAGE_TYPHON.PNG"
+IMAGE_GUARDKICK_CARD    PNG                     "res\\IMAGE_GUARDKICK_CARD.PNG"
+IMAGE_POSSESS           PNG                     "res\\IMAGE_POSSESS.PNG"
+IMAGE_BLUERING_CARD     PNG                     "res\\IMAGE_BLUERING_CARD.PNG"
+IMAGE_YELLOWRING_CARD   PNG                     "res\\IMAGE_YELLOWRING_CARD.PNG"
+IMAGE_WHITERING_CARD    PNG                     "res\\IMAGE_WHITERING_CARD.PNG"
+IMAGE_REDRING_CARD      PNG                     "res\\IMAGE_REDRING_CARD.PNG"
+IMAGE_VIPROOM_CARD      PNG                     "Res\\IMAGE_VIPROOM_CARD.PNG"
+SYMBOL_CAR              PNG                     "Res\\SYMBOL_CAR.PNG"
+SYMBOL_EGG              PNG                     "Res\\SYMBOL_EGG.PNG"
+SYMBOL_CLAP             PNG                     "Res\\SYMBOL_CLAP.PNG"
+SYMBOL_KISS             PNG                     "Res\\SYMBOL_KISS.PNG"
+SYMBOL_BEER             PNG                     "Res\\SYMBOL_BEER.PNG"
+SYMBOL_CAKE             PNG                     "Res\\SYMBOL_CAKE.PNG"
+SYMBOL_RING             PNG                     "Res\\SYMBOL_RING.PNG"
+SYMBOL_BEAT             PNG                     "Res\\SYMBOL_BEAT.PNG"
+SYMBOL_BOMB             PNG                     "Res\\SYMBOL_BOMB.PNG"
+SYMBOL_SMOKE            PNG                     "Res\\SYMBOL_SMOKE.PNG"
+SYMBOL_VILLA            PNG                     "Res\\SYMBOL_VILLA.PNG"
+SYMBOL_BRICK            PNG                     "Res\\SYMBOL_BRICK.PNG"
+SYMBOL_FLOWER           PNG                     "Res\\SYMBOL_FLOWER.PNG"
+SYMBOL_TWO_SCORE_CARD   PNG                     "Res\\SYMBOL_TWO_SCORE_CARD.PNG"
+SYMBOL_FOUR_SCORE_CARD  PNG                     "Res\\SYMBOL_FOUR_SCORE_CARD.PNG"
+SYMBOL_SCORE_CLEAR      PNG                     "Res\\SYMBOL_SCORE_CLEAR.PNG"
+SYMBOL_ESCAPE_CLEAR     PNG                     "Res\\SYMBOL_ESCAPE_CLEAR.PNG"
+SYMBOL_TRUMPET          PNG                     "Res\\SYMBOL_TRUMPET.PNG"
+SYMBOL_TYPHON           PNG                     "Res\\SYMBOL_TYPHON.PNG"
+SYMBOL_GUARDKICK_CARD   PNG                     "Res\\SYMBOL_GUARDKICK_CARD.PNG"
+SYMBOL_POSSESS          PNG                     "Res\\SYMBOL_POSSESS.PNG"
+SYMBOL_BLUERING_CARD    PNG                     "Res\\SYMBOL_BLUERING_CARD.PNG"
+SYMBOL_YELLOWRING_CARD  PNG                     "Res\\SYMBOL_YELLOWRING_CARD.PNG"
+SYMBOL_WHITERING_CARD   PNG                     "Res\\SYMBOL_WHITERING_CARD.PNG"
+SYMBOL_REDRING_CARD     PNG                     "Res\\SYMBOL_REDRING_CARD.PNG"
+SYMBOL_VIPROOM_CARD     PNG                     "Res\\SYMBOL_VIPROOM_CARD.PNG"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_CUR            CURSOR                  "res\\HAND_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_PROPERTY DIALOGEX 0, 0, 323, 231
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_NICK_NAME,67,124,85,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROPERTY_COUNT,67,145,85,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "使用身上游戏币支付",IDC_PAY_BY_SCORE,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_GROUP,66,185,88,10
+    CONTROL         "使用保险柜游戏币支付",IDC_PAY_BY_INSURE,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,65,167,96,10
+    PUSHBUTTON      "购 买",IDOK,84,209,51,15
+    PUSHBUTTON      "关 闭",IDCANCEL,189,209,51,15
+    LTEXT           "道具名称：",IDC_STATIC_NAME,103,40,41,8
+    LTEXT           "功能描述：",IDC_STATIC,103,79,41,8
+    LTEXT           "静态",IDC_PROPERTY_NAME,148,40,160,8,SS_ENDELLIPSIS
+    LTEXT           "静态",IDC_PROPERTY_DESCRIBE,148,79,160,35
+    LTEXT           "使用对象：",IDC_STATIC,22,126,41,8
+    LTEXT           "购买数目：",IDC_STATIC,22,147,41,8
+    LTEXT           "道具价格：",IDC_STATIC_PRICE,103,59,41,8
+    LTEXT           "静态",IDC_PROPERTY_GOLD,148,59,160,8,SS_ENDELLIPSIS
+    LTEXT           "支付方式：",IDC_STATIC,22,168,41,8
+    LTEXT           "（即玩家昵称）",IDC_STATIC,184,127,57,8
+    LTEXT           "（您保险柜中的金额最多能购买0个）",IDC_MAX_BUYCOUNT,183,
+                    150,120,8
+    LTEXT           "个",IDC_STATIC_COUNT,160,149,26,8
+END
+
+IDD_DLG_TRUMPET DIALOGEX 0, 0, 282, 199
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,57,177,50,14
+    PUSHBUTTON      "关闭",IDCANCEL,170,178,50,14
+    LTEXT           "小喇叭3000游戏币一条。每条消息不得超过60个字符，消息将在房间内的聊天框内以醒目的方式显示。",
+                    IDC_PROPERTY_INFO,33,132,234,28
+    PUSHBUTTON      "",IDC_EXPRESSION,15,110,11,12
+    PUSHBUTTON      "",IDC_COLOR_SET,57,110,11,12
+    EDITTEXT        IDC_InputChat,17,29,246,73,ES_MULTILINE | NOT WS_BORDER
+    LTEXT           "注：",IDC_STATIC,16,132,15,12
+    CONTROL         "小喇叭",IDC_RADIO_TRUMPET,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,104,113,40,10
+    CONTROL         "大喇叭",IDC_RADIO_TYPHON,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,155,113,40,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BT_LEFT             BITMAP                  "res\\BT_LEFT.bmp"
+IDB_BT_RIGHT            BITMAP                  "res\\BT_RIGHT.bmp"
+IDB_BT_COLOR_SET        BITMAP                  "Res\\BT_BMP_COLOR_SET.bmp"
+IDB_BT_EXPRESSION       BITMAP                  "Res\\BT_BMP_EXPRESSION.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_TRUMPET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameProperty.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
